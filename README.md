@@ -42,7 +42,7 @@
 
 ## 技术架构
 
-  - GUI: 使用 Walk 库实现 Windows 原生界面
+  - GUI: 使用 Fyne 库实现 Windows 原生界面
   - 远程桌面连接: 使用 Windows 自带的 mstsc 命令
   - 配置管理: 内存中管理连接配置
 
