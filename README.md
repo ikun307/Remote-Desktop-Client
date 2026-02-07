@@ -30,7 +30,7 @@
         ```
    5. 或者编译为可执行文件：
         ```
-        go build -ldflags="-H windowsgui" -o RemoteDesktopClient.exe .
+        go build -ldflags="-H windowsgui" -o RemoteDesktopClientGUI.exe .
         ```
 ## 使用说明
 
