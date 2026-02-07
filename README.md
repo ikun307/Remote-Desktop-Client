@@ -9,10 +9,11 @@
 - 支持自定义端口（默认为 3389）
 - 用户友好的图形界面
 - 支持全屏模式
+- 两种运行模式：命令行和GUI
 
 ## 系统要求
 
-  - Windows 10/11
+  - Windows 7/8/10/11
   - Go 1.19 或更高版本
   - 目标计算机启用了远程桌面服务
 
@@ -29,8 +30,13 @@
         go run main.go
         ```
    5. 或者编译为可执行文件：
+      ## GUI版本（推荐）
         ```
         go build -ldflags="-H windowsgui" -o RemoteDesktopClientGUI.exe .
+        ```
+      ## 命令行版本
+        ```
+        go build -o RemoteDesktopClient.exe
         ```
 ## 使用说明
 
